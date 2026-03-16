@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的技能樹 - 技術實力展示</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; margin: 0; padding: 20px; background-color: #f4f4f4; }
+        nav { background: #333; color: #fff; padding: 10px; text-align: center; border-radius: 5px; }
+        nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .container { background: #fff; padding: 30px; margin-top: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { color: #2c3e50; text-align: center; }
+        .skill-tree { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 30px; }
+        .skill-node { background: #fff; border: 2px solid #e1e1e1; padding: 20px; border-radius: 10px; transition: transform 0.3s; }
+        .skill-node:hover { transform: translateY(-5px); border-color: #3498db; }
+        .skill-node h3 { color: #2980b9; margin-top: 0; }
+        .tag { background: #e8f4fd; color: #2980b9; padding: 4px 8px; border-radius: 4px; font-size: 0.85em; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">首頁</a>
+    <a href="skill.html">我的技能樹</a>
+    <a href="pl.html">Power Platform 認證</a>
+    <a href="dp.html">Database 認證</a>
+</nav>
+
+<div class="container">
+    <h1>我的技能樹 (My Skill Tree)</h1>
+    <p style="text-align: center;">涵蓋從資料庫管理、程式開發到雲端自動化部署的完整技術棧。</p>
+
+    <div class="skill-tree">
+        <div class="skill-node">
+            <h3><span class="tag">SQL</span> MS SQL Server Analysis Services (SSAS)</h3>
+            <p>負責商業智慧的多維度數據建模與資料分析，提供高效的查詢效能。</p>
+        </div>
+        <div class="skill-node">
+            <h3><span class="tag">Reporting</span> MS SQL Server Reporting Services (SSRS)</h3>
+            <p>設計與發佈各類企業級報表，實現數據視覺化與自動化發送。</p>
+        </div>
+        <div class="skill-node">
+            <h3><span class="tag">Data</span> MS SQL 基本操作 & ETL</h3>
+            <p>熟練 SQL 語法，並具備數據清洗、轉換、載入 (ETL) 的實務經驗。</p>
+        </div>
+        <div class="skill-node">
+            <h3><span class="tag">Dev</span> Python 基礎語法</h3>
+            <p>運用 Python 進行自動化腳本撰寫、數據處理及網頁爬蟲應用。</p>
+        </div>
+        <div class="skill-node">
+            <h3><span class="tag">BI</span> Power BI 與 DAX 語法</h3>
+            <p>精通 Power BI 建模與複雜 DAX 公式編寫，將數據轉化為決策建議。</p>
+        </div>
+        <div class="skill-node">
+            <h3><span class="tag">DevOps</span> MS Azure 與 GitHub CI/CD</h3>
+            <p>具備雲端環境部署經驗，並能透過 GitHub 設定自動化集成與發佈流程。</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
